@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-console-app1",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "devDependencies": {
+    "ts-node": "^10.1.0",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "lodash": "^4.17.21"
+  }
+}
